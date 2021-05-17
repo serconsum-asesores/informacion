@@ -1,0 +1,111 @@
+
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:"open sans";
+}
+
+.informacion {
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow:hidden;
+}
+
+.titulo {
+    color: #642a73;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+
+header {
+    width: 100%;
+    height: 420px;
+    background:#0000FF;
+  
+   
+    
+    background: #3b83bd;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+
+nav > a{
+    color:#fff;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+header .textos-header{
+    display: flex;
+    height: 310px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.textos-header h1{
+    font-size: 50px;
+    color:#fff;
+}
+
+.textos-header h2{
+    font-size: 30px;
+    font-weight: 300;
+    color:#fff;
+}
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.mapa{
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+    
+   
+}
+footer{
+    background:#3b83bd;
+    padding:inherit;
+}
+
+.pie de web{
+        flex-direction:column;
+        
+    }
+
+    .relleno{
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    
+    .relleno p{
+        color: #ccc;
+        border-bottom: 1px solid #f2f2f2;
+        padding-bottom: 5px;
+    }
+
+    .Nombre Asesoria{
+        font-size: 15px;
+    }
